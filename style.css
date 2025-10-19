@@ -1,7 +1,61 @@
 /* NƏZRİN */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
+body{
+  font-family: "Space Grotesk", sans-serif;
+}
 
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 1440px;
+    height: 68px;
+}
 
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 219.54px;
+    height: 56px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 400px;
+    width: 811px;
+}
+.border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 231px;
+    height: 68px;
+    border: 1px solid black;
+    border-radius: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
 
 
 
