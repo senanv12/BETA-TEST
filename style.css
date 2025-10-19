@@ -23,9 +23,10 @@ html, body{
     margin-top: 60px;
     margin-bottom: 70px;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 150px;
     width: 1440px;
     height: 68px;
+    
 }
 
 .logo{
@@ -304,7 +305,7 @@ p{
     gap: 95.9px;
     padding-left: 100px;
     padding-right: 100px;
-    margin-top: 47px;
+    margin-top: 100px;
     margin-bottom: 80px;
 }
 .logoes img{
@@ -397,16 +398,30 @@ p{
 
 
 /* HƏMİD */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 100px;
+    
+    
 }
 
 .box {
+
   padding: 15px;
   display: flex;
   align-items: center;
   margin-top: 10px;
+  margin-bottom: 70px;
 }
 
 .title {
@@ -414,12 +429,20 @@ body {
   padding: 10px 15px;
   font-weight: bold;
   font-size: 30px;
+  margin-left: 80px;
 }
 
 .text {
-  font-size: 17px;
-  color: #333;
+  
   margin-left: 35px;
+  
+}
+
+.text p {
+  margin: 0 0 10px 0;
+font-size: 17px;
+  color: #333;
+  width: 52%;
 }
 
 
