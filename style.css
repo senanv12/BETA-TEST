@@ -3,7 +3,7 @@
 
 html, body{
   font-family: "Space Grotesk", sans-serif;
-  overflow-x; hidden;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
 }
