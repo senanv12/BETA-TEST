@@ -166,7 +166,37 @@
 
 /* GÜLNAR */
 
-
+.logoes{
+    display: flex;
+    justify-content: space-between;
+    gap: 95.9px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 47px;
+    margin-bottom: 80px;
+}
+.logoes img{
+    height: 48px;
+    color: black;
+}
+.first-logo{
+    width: 124.11px;
+}
+.second-logo{
+    width: 126.37px;
+}
+.third-logo{
+    width: 128.63px;
+}
+.fourth-logo{
+    width: 145.55px;
+}
+.fifth-logo{
+    width: 125.24px;
+}
+.last-logo{
+    width: 110.57px;
+}
 
 
 
