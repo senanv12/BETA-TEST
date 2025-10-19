@@ -397,10 +397,30 @@ p{
 
 
 /* HƏMİD */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
+.box {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
 
+.title {
+  background-color: #b9ff66;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 30px;
+}
 
-
+.text {
+  font-size: 17px;
+  color: #333;
+  margin-left: 35px;
+}
 
 
 
